@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/KVH_favicon.png" />
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title> Work | KIMBERLY VAN HOUTEN </title>
+</head>
+<body>
+    <!-- header is repeated content -->
+    <header>
+        <!-- Logo that links to homepage -->
+        <div class=mainLogo>
+            <a href=index.html>
+                <img src="images/KVH_logo.png" alt="KVH" id="logo_initial">
+            </a>
+            <!-- text -->
+            <p>Portfolio by Kimberly Van Houten </p>
+
+        </div>
+        <!--/.Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html"> WORK </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropBtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
+    <h1>Looking Inward</h1>
+    <h2>Adding a Room to House on the Stream</h2>
+
+    <p class=projectInfo>
+        Fall 2021 | Architectural Design I (UG1) | Professor Ishan Pal
+    </p>
+    <p class="body_text">
+        The addition or revision of a room propels an analytical examination of the architectural language of the precedent house.
+        This examination led to the understanding that House on the Stream is about facilitating a connection to environment through
+        the way the views are framed by openings extend the eyes  outwards across the landscape and bring the environment into the house.
+        My interest was about how to create a room in the house that had the opposite effect.  I wanted to create a room that drew you 
+        inward and provided a barrier between you and the environment. This space could
+        serve as a gathering space for close friends and family or be a place of
+        individual retreat from the exposed house.
+    </p>
+    <!-- grid of pictures -->
+    <div class=projectContainter>
+        <img src="images_work/ug1p2img1.png" alt="">
+        <img src="images_work/ug1p2img2.jpg" alt="">
+        <img src="images_work/ug1p2img3.JPG" alt="">
+    </div>
+    <!-- footer is repeated content -->
+    <footer>
+        <!-- social media icon links -->
+        <a target="blank" href="https://www.linkedin.com/in/kimberly-van-houten/">
+            <img src="images/linkedin_icon.png" alt="linkedin icon">
+        </a>
+
+        <a target="blank" href="mailto:vhoutenk@umich.edu">
+            <img src="images/email_icon.png" alt="email icon">
+        </a>
+    </footer>
+</body>
+</html>

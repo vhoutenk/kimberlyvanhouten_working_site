@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/KVH_favicon.png" />
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Work | KIMBERLY VAN HOUTEN</title>
+</head>
+<body>
+    <!-- header is repeated content -->
+    <header>
+        <!-- Logo that links to homepage -->
+        <div class=mainLogo>
+            <a href=index.html>
+                <img src="images/KVH_logo.png" alt="KVH" id="logo_initial">
+            </a>
+            <!-- text -->
+            <p>Portfolio by Kimberly Van Houten </p>
+
+        </div>
+
+        <!--/.Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html"> WORK </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropBtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
+    
+    <!-- filter buttons to do later, will require javascript
+    <div class="filterBtns">
+        <button class="btn active" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('arch')"> Architecture</button>
+        <button class="btn" onclick="filterSelection('art')"> Artwork</button>
+        <button class="btn" onclick="filterSelection('other')"> Other</button>
+    </div>
+    -->
+    <!--all the photos of work that serve as links to the individual project pages-->
+    <div class="container">
+        <div class="filterDiv arch ug1p1">
+            <a href="work_ug1p1.html">
+                <img src="images_work/ug1p1cover.png" alt="project name">
+            </a> 
+        </div> 
+        <p class="ug1p1"> Case Study: House on the Stream </p>
+
+       <div class="filterDiv art">
+            <a href="work_art.html">
+                <img src="images_work/artcover.png" alt="project name" >
+            </a>
+        </div>
+        <p class="art">Personal Artwork</p>
+
+        <div class="filterDiv arch ug1p2">
+            <a href="work_ug1p2.html">
+                <img src="images_work/ug1p2cover.png" alt="project name">
+            </a>
+        </div>
+        <p class="ug1p2"> Looking Inward: Adding a Room </p>
+
+        <div class="filterDiv arch c211">
+            <a href="work_211.html">
+                <img src="images_work/211cover.jpg" alt="project name" >
+            </a>
+        </div>
+        <p class="c211"> Setting the Scene: A Dining Room </p>
+
+        <div class="filterDiv arch picture c218">
+            <a href="work_218p1.html">
+                <img src="images_work/218cover.png" alt="project name" class="c218">
+            </a>
+        </div>
+        <p class="c218"> Translations: From 2D to 3D from Solid to Void </p>
+
+    </div>
+
+    <footer>
+        <!-- social media icon links -->
+        <a target="blank" href="https://www.linkedin.com/in/kimberly-van-houten/">
+            <img id="linkedin" src="images/linkedin_icon.png" alt="linkedin icon">
+        </a>
+
+        <a target="blank" href="mailto:vhoutenk@umich.edu">
+            <img id="email" src="images/email_icon.png" alt="email icon">
+        </a>
+    </footer>
+    
+</body>
+</html>

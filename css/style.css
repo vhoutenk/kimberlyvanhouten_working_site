@@ -1,0 +1,264 @@
+﻿body {
+    font-family: Garamond;
+    font-size: 12pt;
+    background-color: #FAF9F6; 
+}
+body div{
+    padding: 10px;
+}
+
+h1{
+    font-family:'Gill Sans';
+    font-size: 15vw;
+    color:#3d5349;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    font-family:'Gill Sans';
+    font-size: 25pt;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Gill Sans';
+    font-size: 20pt;
+    padding-bottom: 10pt;
+}
+
+/*links*/
+a{
+    color: black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: #829e92;
+}
+
+
+/*heading*/
+
+header {
+   
+    /*F2F2EA*/
+    background-color: #FAF9F6;
+    /*so that the header goes behind the image in the scrolling effect*/
+    z-index: 0;
+    background: url(../images/home_background.jpg) no-repeat;
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center; /* Parallax effect */
+    background-size: cover; /* Parallax effect */
+    height: 98vh; /* Parallax effect */
+  
+}
+
+
+header p {
+    font-family: 'Gill Sans';
+    font-size: .5em;
+}
+
+img#logo_initial{
+   width: 4em;
+}
+
+nav{
+    text-align: left;
+ }
+
+
+ /*dropdown menu most from bootstrap*/
+
+a.nav-link.active {
+    background: #829e92;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #FAF9F6;
+}
+
+
+/*text sections*/
+.body_text {
+    padding: 4em;
+    line-height: 2em;
+    font-size: 14pt;
+}
+
+/*just for the home page*/
+#intro_bio{
+    background: rgba(61,83,73,.7);
+    position: sticky;
+    top: 20px;
+    z-index: -1;
+
+}
+
+#project_list {
+    font-size: 14pt;
+    line-height: 2em;
+    padding: 4em 4em 8em 4em;
+    background: #FAF9F6;
+}
+
+/*photo and title for just the home page*/
+
+#home_header {
+    width: 90%;
+    line-height: 1;
+    padding: 200px 0;
+    text-align: center;
+}
+
+
+/*for the about page*/
+#resumepdf{
+   width:100%;
+   height: 700px;
+}
+ 
+/*for the connect page*/
+form{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+input[type=text] {
+    font-family: 'Garamond';
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3d5349;
+    color: #FAF9F6;
+  }
+/*for the work page*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,500px);
+    row-gap: 10px;
+}
+
+.container p{
+    font-family: 'Gill Sans';
+    grid-column: 2 / 3;
+    font-size: 20pt;
+    font-weight: 400;
+    background-color: rgba(16, 32, 25, 0.7);
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #FAF9F6;
+}
+
+.container div{
+    grid-column: 1/-1;
+    overflow: hidden;
+}
+
+div.filterDiv.arch.ug1p1{
+    grid-row:1 / span 1;
+}
+
+p.ug1p1{
+    grid-row: 1 / span 1;
+    padding-top: 7em;
+    padding-bottom: 7em;
+
+}
+ 
+div.filterDiv.art{
+    grid-row: 2 / span 1;
+}
+
+p.art{
+    grid-row: 2 / span 1;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+div.filterDiv.arch.ug1p2{
+    grid-row: 3 / span 1;
+}
+
+p.ug1p2{
+    grid-row: 3 / span 1;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+div.filterDiv.arch.c211{
+    grid-row: 4 / span 1;
+}
+
+p.c211{
+    grid-row: 4 / span 1;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+div.filterDiv.arch.c218{
+    grid-row: 5 / span 1;
+}
+
+p.c218{
+    grid-row: 5 / span 1;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+
+/*work content pages */
+p.projectInfo{
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*footer*/
+footer{
+    display:flex;
+    justify-content: center;
+    /*background-color: #9cb8ab;*/
+    background-color: #FAF9F6;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,2);
+    padding: 10px;
+   
+}
+
+footer img{
+
+    width:30px;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 850px){
+    
+    #home_header {
+        font-size: 6em;
+        text-align: center;
+        top: 40%;
+        left: 10%;
+        right:10%;
+        position:relative;
+    }
+       
+}
+    

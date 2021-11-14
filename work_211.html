@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/KVH_favicon.png" />
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title> Work | KIMBERLY VAN HOUTEN </title>
+</head>
+<body>
+    <!-- header is repeated content -->
+    <header>
+        <!-- Logo that links to homepage -->
+        <div class=mainLogo>
+            <a href=index.html>
+                <img src="images/KVH_logo.png" alt="KVH" id="logo_initial">
+            </a>
+            <!-- text -->
+            <p>Portfolio by Kimberly Van Houten </p>
+
+        </div>
+
+        <!--/.Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html"> WORK </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropBtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
+    
+    <h1>Setting the Scene</h1>
+    <h2>A Dining Room</h2>
+
+    <p class=projectInfo>
+        Winter 2020 | Digital Drawing | Professor Liz Galvez
+    </p>
+    <p class="body_text">
+        This project sets up a  scene for an unconventional dining experience 
+        where the walls and floor become the table and chairs. The form comes 
+        from simple shapes of a cube and sphere. Starting with a cube, simple 
+        shapes are subtracted to create the form of the structure.  
+        The treatment of the images comes from a desire to  create surrealist
+        experiences by combining Photoshop collaging with “dream-scape” 
+        rendering styles.
+    </p>
+    <!-- grid of pictures -->
+    <div class=projectContainter>
+        <img src="images_work/211img1.jpg" alt="">
+        <img src="images_work/211img2.jpg" alt="">
+
+
+    </div>
+    <!-- footer is repeated content -->
+    <footer>
+        <!-- social media icon links -->
+        <a target="blank" href="https://www.linkedin.com/in/kimberly-van-houten/">
+            <img src="images/linkedin_icon.png" alt="linkedin icon">
+        </a>
+
+        <a target="blank" href="mailto:vhoutenk@umich.edu">
+            <img  src="images/email_icon.png" alt="email icon">
+        </a>
+    </footer>
+</body>
+</html>
