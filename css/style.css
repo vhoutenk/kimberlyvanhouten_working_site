@@ -44,17 +44,16 @@ a:hover{
 /*heading*/
 
 header {
-   
     /*F2F2EA*/
-    background-color: #FAF9F6;
     /*so that the header goes behind the image in the scrolling effect*/
     z-index: 0;
-    background: url(../images/home_background.jpg) no-repeat;
+    background: url(../images/home_background.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Parallax effect */
     background-position: center; /* Parallax effect */
+
     background-size: cover; /* Parallax effect */
     height: 98vh; /* Parallax effect */
-  
 }
 
 
@@ -110,7 +109,7 @@ a.nav-link.active {
 /*photo and title for just the home page*/
 
 #home_header {
-    width: 90%;
+    width: 95%;
     line-height: 1;
     padding: 200px 0;
     text-align: center;
@@ -251,14 +250,5 @@ footer img{
 
 @media screen and (min-width: 850px){
     
-    #home_header {
-        font-size: 6em;
-        text-align: center;
-        top: 40%;
-        left: 10%;
-        right:10%;
-        position:relative;
-    }
-       
 }
     
