@@ -8,7 +8,7 @@ body div{
 }
 
 h1{
-    font-family:'Gill Sans';
+    font-family:'Gill Sans', sans-serif;
     font-size: 15vw;
     color:#3d5349;
     font-weight: 900;
@@ -16,13 +16,13 @@ h1{
 }
 
 h2{
-    font-family:'Gill Sans';
+    font-family:'Gill Sans', sans-serif;
     font-size: 25pt;
     text-align: center;
 }
 
 h3{
-    font-family: 'Gill Sans';
+    font-family: 'Gill Sans', sans-serif;
     font-size: 20pt;
     padding-bottom: 10pt;
 }
@@ -54,11 +54,12 @@ header {
 
     background-size: cover; /* Parallax effect */
     height: 98vh; /* Parallax effect */
+
 }
 
 
 header p {
-    font-family: 'Gill Sans';
+    font-family: 'Gill Sans', sans-serif ;
     font-size: .5em;
 }
 
