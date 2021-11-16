@@ -8,7 +8,7 @@ body div{
 }
 
 h1{
-    font-family:'Gill Sans', sans-serif;
+    font-family:'Times New Roman', sans-serif;
     font-size: 15vw;
     color:#3d5349;
     font-weight: 900;
@@ -95,8 +95,6 @@ a.nav-link.active {
 /*just for the home page*/
 #intro_bio {
     background: rgba(61,83,73,.7);
-    position: sticky;
-
 }
 
 #project_list {
@@ -104,7 +102,7 @@ a.nav-link.active {
     line-height: 2em;
     padding: 4em 4em 8em 4em;
     background: #FAF9F6;
- 
+
 }
 
 /*photo and title for just the home page*/
