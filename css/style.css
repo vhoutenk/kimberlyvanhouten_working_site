@@ -48,7 +48,8 @@ header.home-page {
     /*F2F2EA*/
     /*so that the header goes behind the image in the scrolling effect*/
     z-index: 0;
-    background: url(../images/home_background.jpg);
+   /* background: url(../images/home_background.jpg);*/
+   background: url(../images/placeholder.PNG);
     background-repeat: no-repeat;
     background-attachment: fixed; /* Parallax effect */
     background-position: center; /* Parallax effect */
