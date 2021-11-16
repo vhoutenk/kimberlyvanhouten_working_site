@@ -44,7 +44,7 @@ a:hover{
 
 /*heading*/
 
-header {
+header.home-page {
     /*F2F2EA*/
     /*so that the header goes behind the image in the scrolling effect*/
     z-index: 0;
@@ -96,7 +96,7 @@ a.nav-link.active {
 #intro_bio {
     background: rgba(61,83,73,.7);
     position: sticky;
-    top: -30%;
+
 }
 
 #project_list {
@@ -104,8 +104,7 @@ a.nav-link.active {
     line-height: 2em;
     padding: 4em 4em 8em 4em;
     background: #FAF9F6;
-    position: relative;
-    z-index: 1;
+ 
 }
 
 /*photo and title for just the home page*/
